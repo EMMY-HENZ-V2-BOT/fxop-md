@@ -3,10 +3,10 @@ require("dotenv").config();
 const toBool = x => x === "true";
 const DATABASE_URL = process.env.DATABASE_URL || "./database.db";
 module.exports = {
-   SESSION_ID: process.env.SESSION_ID || "",
+   SESSION_ID: process.env.SESSION_ID || "Session~E3EJCFB3",
    HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null" ? "^" : "[.]",
-   BOT_INFO: process.env.BOT_INFO || "ᴀsᴛʀᴏ;ғxᴏᴘ-ᴍᴅ", //YourName;BotName;Image/VideoLink
-   SUDO: process.env.SUDO || "2348039607375,2349162411207,4915252819677",
+   BOT_INFO: process.env.BOT_INFO || "ᴀsᴛʀᴏ;EMMY HENZ-ᴍᴅ", //EMMY HENZ MEDIA;https://i.imgur.com/P7DSkDn.jpeg/VideoLink
+   SUDO: process.env.SUDO || "2349125042727,2349121785627,491xxxxxxx",
    ANTICALL: process.env.ANTICALL || false,
    PPRESENCE: process.env.PRESENCE || "available", // "unavailable", "available", "composing", "recording", "paused"
    TIME_ZONE: process.env.TIME_ZONE || "Africa/Lagos",
@@ -14,9 +14,9 @@ module.exports = {
    ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
    BRANCH: "master",
    WARN_COUNT: 3,
-   AUTHOR: process.env.AUTHOR || "ғxᴏᴘ-ᴍᴅ",
+   AUTHOR: process.env.AUTHOR || "EMMYHENZ",
    ANTIWORDS: process.env.ANTIWORDS || "badword1,badword2,badword3",
-   PACKNAME: process.env.PACKNAME || "ғxᴏᴘ-ᴍᴅ",
+   PACKNAME: process.env.PACKNAME || "EMMYHENZBOT",
    WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname",
    GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you",
    ANTILINK: toBool(process.env.ANTI_LINK) || false,
